@@ -11,6 +11,8 @@ body{
     background-color: #fcde67;
 }
 .main{
+
+    height: 90vh;
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -25,12 +27,18 @@ body{
 }
 .search-bar{
     margin: 1rem 0;
-    width:400px;
+    width:90%;
     height:40px;
     border:none;
     outline:none;
     border-radius: 1rem;
     padding: 0.3rem 1rem;
+    border : 1px solid black
+}
+.search-bar:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: black;
 }
 .container{
     width: 80%;
@@ -90,7 +98,12 @@ body{
 }
 .indexContainer{
     display: flex;
+    flex-wrap: wrap;
     margin: 2.5rem 0;
+}
+.indexContainer:hover{
+    cursor: pointer;
+    background-color:antiquewhite;
 }
 .numBox {
     width: 50px;

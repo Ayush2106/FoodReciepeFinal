@@ -1,0 +1,83 @@
+.footer{
+margin-top: 5%;
+    height: 80vh;
+    background-color: black;
+}
+h1{
+    font-size: large;
+    font-weight: bold;
+}
+h2{
+    font-size: medium;
+    font-weight: normal;
+}
+.heading{
+    height: 10vh;
+font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: white;
+}
+.heading h1{
+    color: white;
+
+}
+.second{
+     height: 70vh;
+    display: flex;
+    gap: 3rem;
+    /* border: 2px solid white; */
+}
+.second .left{
+ display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+    height: 60vh;
+}
+
+.lefta{
+    color: white;
+    /* border: 2px solid white; */
+    height: 25vh;
+    width: 75%;
+ }
+.leftb{
+    width: 75%;
+    /* border: 2px solid white; */
+    color: white;
+
+    height: 25vh;
+ }
+.foot{
+    width: 90vh;
+ 
+}
+
+
+.foot .lefti{
+    float: right;
+  padding-top: 55vh;
+  padding-right: 8%;
+
+}
+
+
+.heading h1:hover{
+cursor: pointer;
+font-style: italic;
+}
+.MuiSvgIcon-root:hover{
+    cursor: pointer;
+    color: rgb(207, 186, 157);
+}
+
+.lefta img:hover{
+    cursor: pointer;
+ 
+}
+.leftb img:hover{
+    cursor: pointer;
+   
+}
