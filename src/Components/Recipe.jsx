@@ -13,7 +13,7 @@ const Recipe = () => {
     if(item){
       const strYoutube= item.strYoutube;
       const str=strYoutube.split("=");
-      id=str[str.length-1];
+      id=str[str.length-1]; // returns last elmeent of array which is nothing id
     }
   
 

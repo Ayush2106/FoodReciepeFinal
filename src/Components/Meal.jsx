@@ -34,6 +34,7 @@ return (
                 
                 }
             </div>
+            //setIndex is not  a hook just like a function name as handechanage
             <div className="indexContainer">
                  <ReacipeIndex alphaIndex={(alpha)=>setIndex(alpha)}/>
             </div>
